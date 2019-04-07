@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 410 == 200",
+      "children" : [ {
+        "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+        "uid" : "2fb8c6476987531e",
+        "parentUid" : "eb5614cd4b6f856305a8bb7b94ac03a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616876126,
+          "stop" : 1554616887874,
+          "duration" : 11748
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb5614cd4b6f856305a8bb7b94ac03a5"
+    }, {
+      "name" : "AssertionError: assert 411 == 200",
+      "children" : [ {
+        "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+        "uid" : "b5f9e406c5eebc13",
+        "parentUid" : "6b22152425cf82ff977f9bab219a2c5e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616887876,
+          "stop" : 1554616888035,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b22152425cf82ff977f9bab219a2c5e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

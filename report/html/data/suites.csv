@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"failed","testcase.D:\Software\Python\pytest1\testcase\sys.test_sys_changepassword.Test_login.test_changepwd_success","159",""
+"failed","testcase.D:\Software\Python\pytest1\testcase\sys.test_sys_changepassword.Test_login.test_login_success","11748",""

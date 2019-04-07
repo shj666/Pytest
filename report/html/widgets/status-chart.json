@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b5f9e406c5eebc13",
+  "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+  "time" : {
+    "start" : 1554616887876,
+    "stop" : 1554616888035,
+    "duration" : 159
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb8c6476987531e",
+  "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+  "time" : {
+    "start" : 1554616876126,
+    "stop" : 1554616887874,
+    "duration" : 11748
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

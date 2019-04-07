@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+      "uid" : "2fb8c6476987531e",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554616876126,
+        "stop" : 1554616887874,
+        "duration" : 11748
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+      "uid" : "b5f9e406c5eebc13",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554616887876,
+        "stop" : 1554616888035,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

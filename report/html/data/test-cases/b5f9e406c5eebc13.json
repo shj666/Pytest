@@ -1,0 +1,72 @@
+{
+  "uid" : "b5f9e406c5eebc13",
+  "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+  "fullName" : "testcase.D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+  "historyId" : "b7049064547411efaa2105b2a6f46cb0",
+  "time" : {
+    "start" : 1554616887876,
+    "stop" : 1554616888035,
+    "duration" : 159
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 411 == 200",
+  "statusTrace" : "this = <testcase.sys.test_sys_changepassword.Test_login object at 0x00000262DF145860>\n\n    @allure.story('修改密码成功')\n    def test_changepwd_success(this):\n        data={\"userId\":'201',\"userName\":commonData.username,\"oldPwd\":commonData.passWord,\"password\":commonData.passWord1}\n        resp = http.post_login(\"/sys/changePwd\", data)\n        # resp = (\"http://192.168.1.203:8083/sys/changePwd\",data)\n>       assert resp['code'] == 200\nE       assert 411 == 200\n\ntestcase\\sys\\test_sys_changepassword.py:20: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改密码模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VV8LS97"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "修改密码成功"
+  }, {
+    "name" : "thread",
+    "value" : "2012-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b5f9e406c5eebc13.json",
+  "parameterValues" : [ ]
+}

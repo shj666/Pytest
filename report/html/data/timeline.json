@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-VV8LS97",
+    "children" : [ {
+      "name" : "2012-MainThread",
+      "children" : [ {
+        "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_changepwd_success",
+        "uid" : "b5f9e406c5eebc13",
+        "parentUid" : "7f747c988176812d2d10af4c06359f46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616887876,
+          "stop" : 1554616888035,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+        "uid" : "2fb8c6476987531e",
+        "parentUid" : "7f747c988176812d2d10af4c06359f46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554616876126,
+          "stop" : 1554616887874,
+          "duration" : 11748
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f747c988176812d2d10af4c06359f46"
+    } ],
+    "uid" : "3f8b1aaddb10624c96d4ee4998f5e1da"
+  } ]
+}

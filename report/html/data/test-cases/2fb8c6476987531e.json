@@ -1,0 +1,69 @@
+{
+  "uid" : "2fb8c6476987531e",
+  "name" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+  "fullName" : "testcase.D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success",
+  "historyId" : "19e46df203ab66b49c12c78bdb18d01",
+  "time" : {
+    "start" : 1554616876126,
+    "stop" : 1554616887874,
+    "duration" : 11748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 410 == 200",
+  "statusTrace" : "this = <testcase.sys.test_sys_changepassword.Test_login object at 0x00000262DF0F61D0>\n\n    def test_login_success(this):\n       data={\"userName\":commonData.username,\"password\":commonData.passWord}\n       resp = http.post_login(\"/sys/login\",data)\n>      assert resp['code']==200\nE      assert 410 == 200\n\ntestcase\\sys\\test_sys_changepassword.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改密码模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VV8LS97"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "2012-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\Software\\Python\\pytest1\\testcase\\sys.test_sys_changepassword.Test_login.test_login_success"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2fb8c6476987531e.json",
+  "parameterValues" : [ ]
+}

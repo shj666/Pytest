@@ -1,0 +1,59 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554617159522" stop="1554617159985">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554617159522" status="failed" stop="1554617159894">
+      <name>D:\Software\Python\pytest1\testcase\sys.test_sys_changepassword.Test_login.test_login_success</name>
+      <failure>
+        <message>AssertionError: assert 410 == 200</message>
+        <stack-trace>this = &lt;testcase.sys.test_sys_changepassword.Test_login object at 0x0000028347CA2518&gt;
+
+    def test_login_success(this):
+       data={"userName":commonData.username,"password":commonData.passWord}
+       resp = http.post_login("/sys/login",data)
+&gt;      assert resp['code']==200
+E      assert 410 == 200
+
+testcase\sys\test_sys_changepassword.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15316-MainThread"/>
+        <label name="host" value="DESKTOP-VV8LS97"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554617159896" status="failed" stop="1554617159985">
+      <name>D:\Software\Python\pytest1\testcase\sys.test_sys_changepassword.Test_login.test_changepwd_success</name>
+      <failure>
+        <message>AssertionError: assert 411 == 200</message>
+        <stack-trace>this = &lt;testcase.sys.test_sys_changepassword.Test_login object at 0x0000028347CE3B38&gt;
+
+    @allure.story('修改密码成功')
+    def test_changepwd_success(this):
+        data={"userId":'201',"userName":commonData.username,"oldPwd":commonData.passWord,"password":commonData.passWord1}
+        resp = http.post_login("/sys/changePwd", data)
+        # resp = ("http://192.168.1.203:8083/sys/changePwd",data)
+&gt;       assert resp['code'] == 200
+E       assert 411 == 200
+
+testcase\sys\test_sys_changepassword.py:20: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码模块"/>
+        <label name="story" value="修改密码成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15316-MainThread"/>
+        <label name="host" value="DESKTOP-VV8LS97"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
